@@ -1,0 +1,734 @@
+{
+  "tiny_norare_ce_uni_s123": {
+    "run": "tiny_norare_ce_uni",
+    "seed": 123,
+    "argmax": {
+      "acc_all": 0.8807963421604115,
+      "macro_f1": 0.7991778982205092,
+      "rare_f1": 0.6384277472340625
+    },
+    "rare_recall": {
+      "short_sleeve_outwear": 0.4014084507042254,
+      "sling": 0.5807453416149069,
+      "long_sleeve_dress": 0.5572105619498985,
+      "sling_dress": 0.7180156657963447
+    },
+    "rare_precision": {
+      "short_sleeve_outwear": 0.6785714285714286,
+      "sling": 0.8538812785388128,
+      "long_sleeve_dress": 0.6369969040247678,
+      "sling_dress": 0.8152173913043478
+    },
+    "rare_pred_over_true": {
+      "short_sleeve_outwear": 0.5915492957746479,
+      "sling": 0.6801242236024845,
+      "long_sleeve_dress": 0.8747461069735951,
+      "sling_dress": 0.8807658833768495
+    },
+    "weight_norm": {
+      "short_sleeve_top": 1.2925589084625244,
+      "long_sleeve_top": 1.4137862920761108,
+      "short_sleeve_outwear": 1.1367923021316528,
+      "long_sleeve_outwear": 1.8776240348815918,
+      "vest": 1.718277931213379,
+      "sling": 1.6334338188171387,
+      "shorts": 1.4285786151885986,
+      "trousers": 1.5385771989822388,
+      "skirt": 1.0491786003112793,
+      "short_sleeve_dress": 1.6101709604263306,
+      "long_sleeve_dress": 1.7977385520935059,
+      "vest_dress": 1.595924735069275,
+      "sling_dress": 1.8439725637435913
+    },
+    "weight_norm_rare_over_common": 1.0667062997817993,
+    "logit_adjust": {
+      "tau": 0.4,
+      "report_half_tau0": {
+        "acc_all": 0.8830634406553629,
+        "macro_f1": 0.8047476854668746,
+        "rare_f1": 0.6525429755687419
+      },
+      "report_half_tau_best": {
+        "acc_all": 0.8826443132025148,
+        "macro_f1": 0.811078809280784,
+        "rare_f1": 0.6734486054912197
+      }
+    },
+    "ncm": {
+      "acc_all": 0.8803391122118499,
+      "macro_f1": 0.8039859868482713,
+      "rare_f1": 0.6558612372625674
+    }
+  },
+  "tiny_norare_s2024": {
+    "run": "tiny_norare",
+    "seed": 2024,
+    "argmax": {
+      "acc_all": 0.8697275671556487,
+      "macro_f1": 0.7621985847753876,
+      "rare_f1": 0.5415276931382498
+    },
+    "rare_recall": {
+      "short_sleeve_outwear": 0.1619718309859155,
+      "sling": 0.5031055900621118,
+      "long_sleeve_dress": 0.47596479350033855,
+      "sling_dress": 0.7354221061792864
+    },
+    "rare_precision": {
+      "short_sleeve_outwear": 0.5348837209302325,
+      "sling": 0.8852459016393442,
+      "long_sleeve_dress": 0.6812015503875969,
+      "sling_dress": 0.6966199505358615
+    },
+    "rare_pred_over_true": {
+      "short_sleeve_outwear": 0.3028169014084507,
+      "sling": 0.5683229813664596,
+      "long_sleeve_dress": 0.6987136086662153,
+      "sling_dress": 1.0557006092254133
+    },
+    "weight_norm": {
+      "short_sleeve_top": 1.3883780241012573,
+      "long_sleeve_top": 1.4199495315551758,
+      "short_sleeve_outwear": 1.8439656496047974,
+      "long_sleeve_outwear": 1.6346646547317505,
+      "vest": 1.657114863395691,
+      "sling": 1.7859141826629639,
+      "shorts": 1.716568946838379,
+      "trousers": 1.7276232242584229,
+      "skirt": 1.6021881103515625,
+      "short_sleeve_dress": 1.547950029373169,
+      "long_sleeve_dress": 1.5159913301467896,
+      "vest_dress": 1.539471983909607,
+      "sling_dress": 1.585120439529419
+    },
+    "weight_norm_rare_over_common": 1.0639896392822266,
+    "logit_adjust": {
+      "tau": 0.0,
+      "report_half_tau0": {
+        "acc_all": 0.8722804343684512,
+        "macro_f1": 0.7619162697243786,
+        "rare_f1": 0.5357359734298299
+      },
+      "report_half_tau_best": {
+        "acc_all": 0.8722804343684512,
+        "macro_f1": 0.7619162697243786,
+        "rare_f1": 0.5357359734298299
+      }
+    },
+    "ncm": {
+      "acc_all": 0.8698228233949323,
+      "macro_f1": 0.7590668910695514,
+      "rare_f1": 0.532122863163085
+    }
+  },
+  "tiny_norare_cb_uni_s42": {
+    "run": "tiny_norare_cb_uni",
+    "seed": 42,
+    "argmax": {
+      "acc_all": 0.878395884930463,
+      "macro_f1": 0.7952798956863918,
+      "rare_f1": 0.6319124453516733
+    },
+    "rare_recall": {
+      "short_sleeve_outwear": 0.43661971830985913,
+      "sling": 0.6211180124223602,
+      "long_sleeve_dress": 0.5538253215978335,
+      "sling_dress": 0.731940818102698
+    },
+    "rare_precision": {
+      "short_sleeve_outwear": 0.4626865671641791,
+      "sling": 0.8547008547008547,
+      "long_sleeve_dress": 0.6715927750410509,
+      "sling_dress": 0.7729779411764706
+    },
+    "rare_pred_over_true": {
+      "short_sleeve_outwear": 0.9436619718309859,
+      "sling": 0.7267080745341615,
+      "long_sleeve_dress": 0.8246445497630331,
+      "sling_dress": 0.9469103568320278
+    },
+    "weight_norm": {
+      "short_sleeve_top": 1.4386506080627441,
+      "long_sleeve_top": 1.5710138082504272,
+      "short_sleeve_outwear": 0.4936133027076721,
+      "long_sleeve_outwear": 1.7938730716705322,
+      "vest": 1.8378286361694336,
+      "sling": 0.6557998657226562,
+      "shorts": 1.739222764968872,
+      "trousers": 1.6506316661834717,
+      "skirt": 1.6039841175079346,
+      "short_sleeve_dress": 1.7105748653411865,
+      "long_sleeve_dress": 1.6125576496124268,
+      "vest_dress": 1.765182614326477,
+      "sling_dress": 1.585655927658081
+    },
+    "weight_norm_rare_over_common": 0.6473552584648132,
+    "logit_adjust": {
+      "tau": 0.0,
+      "report_half_tau0": {
+        "acc_all": 0.8807391884168413,
+        "macro_f1": 0.7990745998677176,
+        "rare_f1": 0.6395877334578035
+      },
+      "report_half_tau_best": {
+        "acc_all": 0.8807391884168413,
+        "macro_f1": 0.7990745998677176,
+        "rare_f1": 0.6395877334578035
+      }
+    },
+    "ncm": {
+      "acc_all": 0.8780910649647552,
+      "macro_f1": 0.7984067023188816,
+      "rare_f1": 0.6431258064872192
+    }
+  },
+  "tiny_norare_cb_s2024": {
+    "run": "tiny_norare_cb",
+    "seed": 2024,
+    "argmax": {
+      "acc_all": 0.8683558773099638,
+      "macro_f1": 0.767243750620107,
+      "rare_f1": 0.5568744127785487
+    },
+    "rare_recall": {
+      "short_sleeve_outwear": 0.29577464788732394,
+      "sling": 0.5217391304347826,
+      "long_sleeve_dress": 0.45294515910629657,
+      "sling_dress": 0.7258485639686684
+    },
+    "rare_precision": {
+      "short_sleeve_outwear": 0.34146341463414637,
+      "sling": 0.8484848484848485,
+      "long_sleeve_dress": 0.6610671936758893,
+      "sling_dress": 0.7277486910994765
+    },
+    "rare_pred_over_true": {
+      "short_sleeve_outwear": 0.8661971830985915,
+      "sling": 0.6149068322981367,
+      "long_sleeve_dress": 0.6851726472579553,
+      "sling_dress": 0.9973890339425587
+    },
+    "weight_norm": {
+      "short_sleeve_top": 1.98715078830719,
+      "long_sleeve_top": 2.0575945377349854,
+      "short_sleeve_outwear": 1.1124002933502197,
+      "long_sleeve_outwear": 2.1332192420959473,
+      "vest": 2.2043917179107666,
+      "sling": 1.581627368927002,
+      "shorts": 2.301187038421631,
+      "trousers": 2.243776798248291,
+      "skirt": 2.2403147220611572,
+      "short_sleeve_dress": 2.035648822784424,
+      "long_sleeve_dress": 1.911868691444397,
+      "vest_dress": 1.967108964920044,
+      "sling_dress": 1.9452521800994873
+    },
+    "weight_norm_rare_over_common": 0.7688982486724854,
+    "logit_adjust": {
+      "tau": 0.0,
+      "report_half_tau0": {
+        "acc_all": 0.8697275671556487,
+        "macro_f1": 0.7698597597371573,
+        "rare_f1": 0.5618533813930113
+      },
+      "report_half_tau_best": {
+        "acc_all": 0.8697275671556487,
+        "macro_f1": 0.7698597597371573,
+        "rare_f1": 0.5618533813930113
+      }
+    },
+    "ncm": {
+      "acc_all": 0.869270337207087,
+      "macro_f1": 0.7692239056373489,
+      "rare_f1": 0.56297230352843
+    }
+  },
+  "tiny_rare_ce_uni_s123": {
+    "run": "tiny_rare_ce_uni",
+    "seed": 123,
+    "argmax": {
+      "acc_all": 0.8702228995999238,
+      "macro_f1": 0.7292109569473811,
+      "rare_f1": 0.4305795108002698
+    },
+    "rare_recall": {
+      "short_sleeve_outwear": 0.04929577464788732,
+      "sling": 0.38198757763975155,
+      "long_sleeve_dress": 0.3893026404874746,
+      "sling_dress": 0.6327241079199304
+    },
+    "rare_precision": {
+      "short_sleeve_outwear": 0.25,
+      "sling": 0.831081081081081,
+      "long_sleeve_dress": 0.6078224101479915,
+      "sling_dress": 0.6514336917562724
+    },
+    "rare_pred_over_true": {
+      "short_sleeve_outwear": 0.19718309859154928,
+      "sling": 0.45962732919254656,
+      "long_sleeve_dress": 0.6404874746106973,
+      "sling_dress": 0.9712793733681462
+    },
+    "weight_norm": {
+      "short_sleeve_top": 1.3910235166549683,
+      "long_sleeve_top": 1.5150136947631836,
+      "short_sleeve_outwear": 1.0345656871795654,
+      "long_sleeve_outwear": 1.8972079753875732,
+      "vest": 1.802678108215332,
+      "sling": 1.5758445262908936,
+      "shorts": 1.7128325700759888,
+      "trousers": 1.6424205303192139,
+      "skirt": 1.620208740234375,
+      "short_sleeve_dress": 1.706982970237732,
+      "long_sleeve_dress": 1.7045903205871582,
+      "vest_dress": 1.7099404335021973,
+      "sling_dress": 1.7067629098892212
+    },
+    "weight_norm_rare_over_common": 0.9033663868904114,
+    "logit_adjust": {
+      "tau": 0.7,
+      "report_half_tau0": {
+        "acc_all": 0.8709849495141931,
+        "macro_f1": 0.730765079218185,
+        "rare_f1": 0.43492135638829355
+      },
+      "report_half_tau_best": {
+        "acc_all": 0.8685463897885312,
+        "macro_f1": 0.7479581391724833,
+        "rare_f1": 0.4918735655300529
+      }
+    },
+    "ncm": {
+      "acc_all": 0.8708706420270528,
+      "macro_f1": 0.7585009024951199,
+      "rare_f1": 0.5242049618440936
+    }
+  },
+  "tiny_rare_s2024": {
+    "run": "tiny_rare",
+    "seed": 2024,
+    "argmax": {
+      "acc_all": 0.8641265002857688,
+      "macro_f1": 0.7480681980023659,
+      "rare_f1": 0.5044292200633496
+    },
+    "rare_recall": {
+      "short_sleeve_outwear": 0.19718309859154928,
+      "sling": 0.4440993788819876,
+      "long_sleeve_dress": 0.41909275558564657,
+      "sling_dress": 0.7093124456048738
+    },
+    "rare_precision": {
+      "short_sleeve_outwear": 0.4666666666666667,
+      "sling": 0.8265895953757225,
+      "long_sleeve_dress": 0.5448943661971831,
+      "sling_dress": 0.6696795398520953
+    },
+    "rare_pred_over_true": {
+      "short_sleeve_outwear": 0.4225352112676056,
+      "sling": 0.5372670807453416,
+      "long_sleeve_dress": 0.7691266079891672,
+      "sling_dress": 1.0591818973020017
+    },
+    "weight_norm": {
+      "short_sleeve_top": 1.5539970397949219,
+      "long_sleeve_top": 1.5908536911010742,
+      "short_sleeve_outwear": 1.672049641609192,
+      "long_sleeve_outwear": 1.7861918210983276,
+      "vest": 1.742646336555481,
+      "sling": 1.5974186658859253,
+      "shorts": 1.8306119441986084,
+      "trousers": 1.7684160470962524,
+      "skirt": 1.7453252077102661,
+      "short_sleeve_dress": 1.6628532409667969,
+      "long_sleeve_dress": 1.3920176029205322,
+      "vest_dress": 1.6537131071090698,
+      "sling_dress": 1.3647006750106812
+    },
+    "weight_norm_rare_over_common": 0.8842038512229919,
+    "logit_adjust": {
+      "tau": 0.5,
+      "report_half_tau0": {
+        "acc_all": 0.8644313202514765,
+        "macro_f1": 0.7491359303253279,
+        "rare_f1": 0.5067453494399278
+      },
+      "report_half_tau_best": {
+        "acc_all": 0.8619165555343875,
+        "macro_f1": 0.7509957064513068,
+        "rare_f1": 0.5165877157215362
+      }
+    },
+    "ncm": {
+      "acc_all": 0.8647742427128977,
+      "macro_f1": 0.7447350397948291,
+      "rare_f1": 0.49195344856951523
+    }
+  },
+  "tiny_rare_cb_uni_s123": {
+    "run": "tiny_rare_cb_uni",
+    "seed": 123,
+    "argmax": {
+      "acc_all": 0.8713659744713279,
+      "macro_f1": 0.7431667269519211,
+      "rare_f1": 0.47278556160996377
+    },
+    "rare_recall": {
+      "short_sleeve_outwear": 0.15492957746478872,
+      "sling": 0.38198757763975155,
+      "long_sleeve_dress": 0.4143534190927556,
+      "sling_dress": 0.65970409051349
+    },
+    "rare_precision": {
+      "short_sleeve_outwear": 0.2558139534883721,
+      "sling": 0.8601398601398601,
+      "long_sleeve_dress": 0.6175580221997982,
+      "sling_dress": 0.6872166817769719
+    },
+    "rare_pred_over_true": {
+      "short_sleeve_outwear": 0.6056338028169014,
+      "sling": 0.4440993788819876,
+      "long_sleeve_dress": 0.6709546377792823,
+      "sling_dress": 0.9599651871192341
+    },
+    "weight_norm": {
+      "short_sleeve_top": 1.274137258529663,
+      "long_sleeve_top": 1.4896554946899414,
+      "short_sleeve_outwear": 0.4845494031906128,
+      "long_sleeve_outwear": 1.7975525856018066,
+      "vest": 1.76931631565094,
+      "sling": 0.7347346544265747,
+      "shorts": 1.71334707736969,
+      "trousers": 1.6663247346878052,
+      "skirt": 1.6026549339294434,
+      "short_sleeve_dress": 1.7319777011871338,
+      "long_sleeve_dress": 1.511887788772583,
+      "vest_dress": 1.7623034715652466,
+      "sling_dress": 1.4460759162902832
+    },
+    "weight_norm_rare_over_common": 0.6347428560256958,
+    "logit_adjust": {
+      "tau": 0.0,
+      "report_half_tau0": {
+        "acc_all": 0.8721661268813107,
+        "macro_f1": 0.7478371436904733,
+        "rare_f1": 0.4875837872418576
+      },
+      "report_half_tau_best": {
+        "acc_all": 0.8721661268813107,
+        "macro_f1": 0.7478371436904733,
+        "rare_f1": 0.4875837872418576
+      }
+    },
+    "ncm": {
+      "acc_all": 0.8722804343684512,
+      "macro_f1": 0.7540601341418329,
+      "rare_f1": 0.5071849841538416
+    }
+  },
+  "tiny_rare_cb_s2024": {
+    "run": "tiny_rare_cb",
+    "seed": 2024,
+    "argmax": {
+      "acc_all": 0.8602590969708516,
+      "macro_f1": 0.7301065564020583,
+      "rare_f1": 0.45202643956709254
+    },
+    "rare_recall": {
+      "short_sleeve_outwear": 0.11971830985915492,
+      "sling": 0.38509316770186336,
+      "long_sleeve_dress": 0.4048747461069736,
+      "sling_dress": 0.6997389033942559
+    },
+    "rare_precision": {
+      "short_sleeve_outwear": 0.19318181818181818,
+      "sling": 0.779874213836478,
+      "long_sleeve_dress": 0.5679012345679012,
+      "sling_dress": 0.6463022508038585
+    },
+    "rare_pred_over_true": {
+      "short_sleeve_outwear": 0.6197183098591549,
+      "sling": 0.4937888198757764,
+      "long_sleeve_dress": 0.7129316181448883,
+      "sling_dress": 1.082680591818973
+    },
+    "weight_norm": {
+      "short_sleeve_top": 2.3512468338012695,
+      "long_sleeve_top": 2.318967342376709,
+      "short_sleeve_outwear": 1.0242819786071777,
+      "long_sleeve_outwear": 2.4535915851593018,
+      "vest": 2.3666553497314453,
+      "sling": 1.5155553817749023,
+      "shorts": 2.4840266704559326,
+      "trousers": 2.5591235160827637,
+      "skirt": 2.429251194000244,
+      "short_sleeve_dress": 2.30411434173584,
+      "long_sleeve_dress": 1.7960407733917236,
+      "vest_dress": 2.2921972274780273,
+      "sling_dress": 1.7526445388793945
+    },
+    "weight_norm_rare_over_common": 0.6354221701622009,
+    "logit_adjust": {
+      "tau": 0.0,
+      "report_half_tau0": {
+        "acc_all": 0.860011430748714,
+        "macro_f1": 0.7347114318093334,
+        "rare_f1": 0.46851959219461337
+      },
+      "report_half_tau_best": {
+        "acc_all": 0.860011430748714,
+        "macro_f1": 0.7347114318093334,
+        "rare_f1": 0.46851959219461337
+      }
+    },
+    "ncm": {
+      "acc_all": 0.8621070680129549,
+      "macro_f1": 0.7272083541113629,
+      "rare_f1": 0.4384291858308198
+    }
+  },
+  "tiny_geom_s42": {
+    "run": "tiny_geom",
+    "seed": 42,
+    "argmax": {
+      "acc_all": 0.8613640693465422,
+      "macro_f1": 0.7486499607785573,
+      "rare_f1": 0.5121093391129521
+    },
+    "rare_recall": {
+      "short_sleeve_outwear": 0.2112676056338028,
+      "sling": 0.4658385093167702,
+      "long_sleeve_dress": 0.4935680433310765,
+      "sling_dress": 0.7397737162750218
+    },
+    "rare_precision": {
+      "short_sleeve_outwear": 0.5555555555555556,
+      "sling": 0.7692307692307693,
+      "long_sleeve_dress": 0.5151943462897527,
+      "sling_dress": 0.5923344947735192
+    },
+    "rare_pred_over_true": {
+      "short_sleeve_outwear": 0.38028169014084506,
+      "sling": 0.6055900621118012,
+      "long_sleeve_dress": 0.9580230196343941,
+      "sling_dress": 1.2489120974760661
+    },
+    "weight_norm": {
+      "short_sleeve_top": 1.435894250869751,
+      "long_sleeve_top": 0.9173781871795654,
+      "short_sleeve_outwear": 1.7319763898849487,
+      "long_sleeve_outwear": 1.7160807847976685,
+      "vest": 1.7260289192199707,
+      "sling": 1.6932191848754883,
+      "shorts": 0.9883262515068054,
+      "trousers": 1.6202964782714844,
+      "skirt": 1.0054022073745728,
+      "short_sleeve_dress": 1.602027177810669,
+      "long_sleeve_dress": 1.0384114980697632,
+      "vest_dress": 1.5782313346862793,
+      "sling_dress": 1.034818410873413
+    },
+    "weight_norm_rare_over_common": 0.9826675653457642,
+    "logit_adjust": {
+      "tau": 0.1,
+      "report_half_tau0": {
+        "acc_all": 0.8624880929700895,
+        "macro_f1": 0.7499914510402128,
+        "rare_f1": 0.5137067804908703
+      },
+      "report_half_tau_best": {
+        "acc_all": 0.861878453038674,
+        "macro_f1": 0.7501189145256257,
+        "rare_f1": 0.5147267256620163
+      }
+    },
+    "ncm": {
+      "acc_all": 0.8627929129357973,
+      "macro_f1": 0.7444334205899702,
+      "rare_f1": 0.496274093652964
+    }
+  },
+  "tiny_photo_s2024": {
+    "run": "tiny_photo",
+    "seed": 2024,
+    "argmax": {
+      "acc_all": 0.8731186892741475,
+      "macro_f1": 0.7729958743944823,
+      "rare_f1": 0.5684552605877075
+    },
+    "rare_recall": {
+      "short_sleeve_outwear": 0.22535211267605634,
+      "sling": 0.5403726708074534,
+      "long_sleeve_dress": 0.44752877454299256,
+      "sling_dress": 0.6649260226283725
+    },
+    "rare_precision": {
+      "short_sleeve_outwear": 0.6037735849056604,
+      "sling": 0.87,
+      "long_sleeve_dress": 0.7084673097534834,
+      "sling_dress": 0.8101802757158006
+    },
+    "rare_pred_over_true": {
+      "short_sleeve_outwear": 0.3732394366197183,
+      "sling": 0.6211180124223602,
+      "long_sleeve_dress": 0.6316858496953284,
+      "sling_dress": 0.8207136640557006
+    },
+    "weight_norm": {
+      "short_sleeve_top": 1.4179844856262207,
+      "long_sleeve_top": 1.4602383375167847,
+      "short_sleeve_outwear": 1.8314417600631714,
+      "long_sleeve_outwear": 1.6495083570480347,
+      "vest": 1.6789716482162476,
+      "sling": 1.8150911331176758,
+      "shorts": 1.7532914876937866,
+      "trousers": 1.6572078466415405,
+      "skirt": 1.651160717010498,
+      "short_sleeve_dress": 1.5284327268600464,
+      "long_sleeve_dress": 1.623518943786621,
+      "vest_dress": 1.5496768951416016,
+      "sling_dress": 1.0886436700820923
+    },
+    "weight_norm_rare_over_common": 0.9972531199455261,
+    "logit_adjust": {
+      "tau": 0.4,
+      "report_half_tau0": {
+        "acc_all": 0.8750238140598209,
+        "macro_f1": 0.7721112649893169,
+        "rare_f1": 0.5633714971511626
+      },
+      "report_half_tau_best": {
+        "acc_all": 0.8738807391884168,
+        "macro_f1": 0.780708387423408,
+        "rare_f1": 0.5947448533431461
+      }
+    },
+    "ncm": {
+      "acc_all": 0.8723375881120213,
+      "macro_f1": 0.7657541114521013,
+      "rare_f1": 0.5467624233593061
+    }
+  },
+  "tiny_mild_s42": {
+    "run": "tiny_mild",
+    "seed": 42,
+    "argmax": {
+      "acc_all": 0.8710611545056202,
+      "macro_f1": 0.7694294111819738,
+      "rare_f1": 0.5598755096858419
+    },
+    "rare_recall": {
+      "short_sleeve_outwear": 0.2112676056338028,
+      "sling": 0.5124223602484472,
+      "long_sleeve_dress": 0.4786729857819905,
+      "sling_dress": 0.72236727589208
+    },
+    "rare_precision": {
+      "short_sleeve_outwear": 0.5769230769230769,
+      "sling": 0.8967391304347826,
+      "long_sleeve_dress": 0.6427272727272727,
+      "sling_dress": 0.7364685004436557
+    },
+    "rare_pred_over_true": {
+      "short_sleeve_outwear": 0.36619718309859156,
+      "sling": 0.5714285714285714,
+      "long_sleeve_dress": 0.7447528774542993,
+      "sling_dress": 0.9808529155787642
+    },
+    "weight_norm": {
+      "short_sleeve_top": 1.4434492588043213,
+      "long_sleeve_top": 1.4945495128631592,
+      "short_sleeve_outwear": 1.8549749851226807,
+      "long_sleeve_outwear": 1.6535760164260864,
+      "vest": 1.66649329662323,
+      "sling": 1.7751680612564087,
+      "shorts": 1.6674906015396118,
+      "trousers": 1.7150694131851196,
+      "skirt": 1.6446179151535034,
+      "short_sleeve_dress": 1.5880171060562134,
+      "long_sleeve_dress": 1.079285979270935,
+      "vest_dress": 1.5367047786712646,
+      "sling_dress": 1.0935347080230713
+    },
+    "weight_norm_rare_over_common": 0.9060859084129333,
+    "logit_adjust": {
+      "tau": 0.2,
+      "report_half_tau0": {
+        "acc_all": 0.8722804343684512,
+        "macro_f1": 0.7667950198907835,
+        "rare_f1": 0.549344010247918
+      },
+      "report_half_tau_best": {
+        "acc_all": 0.8712516669841874,
+        "macro_f1": 0.7724081632624689,
+        "rare_f1": 0.5710017087395595
+      }
+    },
+    "ncm": {
+      "acc_all": 0.8705086683177748,
+      "macro_f1": 0.7655323261351862,
+      "rare_f1": 0.5482959968246262
+    }
+  },
+  "tiny_medium_s2024": {
+    "run": "tiny_medium",
+    "seed": 2024,
+    "argmax": {
+      "acc_all": 0.866907982472852,
+      "macro_f1": 0.7571614797833591,
+      "rare_f1": 0.5303791798965694
+    },
+    "rare_recall": {
+      "short_sleeve_outwear": 0.19014084507042253,
+      "sling": 0.4751552795031056,
+      "long_sleeve_dress": 0.4664861205145565,
+      "sling_dress": 0.7380330722367275
+    },
+    "rare_precision": {
+      "short_sleeve_outwear": 0.5,
+      "sling": 0.8742857142857143,
+      "long_sleeve_dress": 0.6059806508355321,
+      "sling_dress": 0.6714172604908947
+    },
+    "rare_pred_over_true": {
+      "short_sleeve_outwear": 0.38028169014084506,
+      "sling": 0.5434782608695652,
+      "long_sleeve_dress": 0.7698036560595802,
+      "sling_dress": 1.0992167101827677
+    },
+    "weight_norm": {
+      "short_sleeve_top": 1.4664740562438965,
+      "long_sleeve_top": 1.5048809051513672,
+      "short_sleeve_outwear": 1.753626823425293,
+      "long_sleeve_outwear": 1.6595673561096191,
+      "vest": 1.7037858963012695,
+      "sling": 1.703946828842163,
+      "shorts": 1.7705411911010742,
+      "trousers": 1.6870890855789185,
+      "skirt": 1.572597861289978,
+      "short_sleeve_dress": 1.5943678617477417,
+      "long_sleeve_dress": 1.3141472339630127,
+      "vest_dress": 1.5651062726974487,
+      "sling_dress": 1.5033236742019653
+    },
+    "weight_norm_rare_over_common": 0.9720773100852966,
+    "logit_adjust": {
+      "tau": 0.5,
+      "report_half_tau0": {
+        "acc_all": 0.8671365974471328,
+        "macro_f1": 0.7579931124627878,
+        "rare_f1": 0.532848827942362
+      },
+      "report_half_tau_best": {
+        "acc_all": 0.8648123452086112,
+        "macro_f1": 0.7650153396247723,
+        "rare_f1": 0.561806084041697
+      }
+    },
+    "ncm": {
+      "acc_all": 0.8666793674985711,
+      "macro_f1": 0.7526471291321116,
+      "rare_f1": 0.5165938359623254
+    }
+  }
+}

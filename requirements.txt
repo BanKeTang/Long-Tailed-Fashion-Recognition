@@ -1,0 +1,10 @@
+torch>=2.3
+torchvision>=0.18
+timm
+albumentations==1.4.15
+opencv-python
+numpy
+scipy
+scikit-learn
+matplotlib
+tqdm
